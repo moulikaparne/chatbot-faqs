@@ -1,0 +1,95 @@
+A simple *FAQ Chatbot* built using *Python, **NLTK, **Scikit-learn, and **Tkinter*.  
+It preprocesses user input, finds the most similar FAQ using *cosine similarity*, and returns the best matching answer.  
+This project was created as part of my *CodeAlpha Internship (Task 2: Chatbot for FAQs)*.  
+
+## ✨ Features
+- Preprocesses text (tokenization, stopwords removal, etc.)  
+- Matches user queries with predefined FAQs using cosine similarity  
+- Returns the most relevant answer  
+- Simple *Tkinter GUI* for easy user interaction  
+- Lightweight and beginner-friendly  
+
+
+
+## 🛠 Tech Stack
+- *Python 3*  
+- *NLTK* (text preprocessing)  
+- *Scikit-learn* (TF-IDF & cosine similarity)  
+- *Tkinter* (GUI interface)  
+
+
+## 📂 Project Structure
+
+chatbot-faqs/ │── chatbot.py          # Main chatbot code with Tkinter GUI │── requirements.txt    # Dependencies │── README.md           # Project documentation
+
+
+
+## ⚙ Installation & Usage
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/chatbot-faqs.git
+
+2. Navigate into the folder:
+
+cd chatbot-faqs
+
+
+3. Install dependencies:
+
+pip install -r requirements.txt
+
+
+4. Run the chatbot:
+
+python chatbot.py
+
+
+
+📸 Screenshot
+
+(Add a screenshot of your chatbot window here – like the one you shared earlier 😊)
+
+
+
+✅ Example Interaction
+
+Chatbot: Hello! Ask me anything (type 'exit' to quit).
+
+You: What is CodeAlpha?  
+Chatbot: CodeAlpha is a platform for internships and projects.  
+
+You: How do I exit?  
+Chatbot: Just type 'exit' or click the Exit button.
+
+
+---
+
+📌 Requirements
+
+See requirements.txt for full list. Main ones include:
+
+nltk
+
+scikit-learn
+
+tkinter (comes pre-installed with Python)
+
+
+
+
+🎯 Future Improvements
+
+Add more FAQs
+
+Improve accuracy with intent classification (spaCy / transformers)
+
+Deploy as a web app
+
+
+
+
+🙌 Acknowledgments
+
+CodeAlpha for providing this task.
+
+Libraries: NLTK, Scikit-learn, Tkinter.
